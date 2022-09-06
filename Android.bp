@@ -435,6 +435,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libMiWatermark.so",
             ],
             shared_libs: [
+                "libpiex-v29",
                 "libcutils",
                 "libutils",
                 "libcamera_metadata",
